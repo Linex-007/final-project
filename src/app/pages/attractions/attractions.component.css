@@ -1,0 +1,12 @@
+.primary-button {
+    background-color: #f8f2f7; /* Blue color */
+    color: rgb(184, 40, 40);
+    padding: 10px 20px;
+    /* border: none; */
+    border-radius: 5px;
+    /* cursor: pointer; */
+}
+
+.primary-button:hover {
+    background-color: #171718; /* Darker blue color on hover */
+}

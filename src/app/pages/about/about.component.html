@@ -1,0 +1,23 @@
+<body style="background-color: #150825;">
+<div>
+    <div class="row" style="padding: 5%;">
+        @for(item of about ; track item.id) {
+    <div class="col">
+       
+         <div class="p-4 g-col-6">
+            <div class="card" style="width: 20rem;">
+                <img src="{{item.image}}" width="150" height="155" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{item.title}}</h5>
+                  <p class="card-text">{{item.paragraph}}</p>
+                  <a href="{{item.link}}" class="btn btn-secondary">More</a>
+                </div>
+              </div>
+           </div>
+        </div>
+   
+  
+  }
+  </div>
+  </div>
+</body>
